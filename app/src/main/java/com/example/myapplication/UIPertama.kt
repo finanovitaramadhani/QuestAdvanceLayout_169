@@ -17,5 +17,5 @@ import androidx.compose.ui.layout.ContentScale
 
 @Composable
 fun AktivitasPertama(modifier: Modifier = Modifier) {
-
-}
+    Column(
+        modifier = modifier
