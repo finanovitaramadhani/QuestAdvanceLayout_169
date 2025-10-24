@@ -15,3 +15,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.layout.ContentScale
 
+@Composable
+fun AktivitasPertama(modifier: Modifier = Modifier) {
+
+}
