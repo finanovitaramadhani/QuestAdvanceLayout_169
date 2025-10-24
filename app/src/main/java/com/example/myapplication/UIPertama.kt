@@ -41,4 +41,8 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = Color.DarkGray
             ),
             shape = RoundedCornerShape(12.dp)
-        )
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(8.dp)
+            ) {
