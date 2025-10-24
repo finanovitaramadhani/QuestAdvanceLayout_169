@@ -55,3 +55,4 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         .padding(5.dp),
                     contentScale = ContentScale.Crop
                 )
+                Spacer(modifier = Modifier.width(30.dp))
