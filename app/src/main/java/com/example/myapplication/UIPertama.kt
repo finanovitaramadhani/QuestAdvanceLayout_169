@@ -19,3 +19,5 @@ import androidx.compose.ui.layout.ContentScale
 fun AktivitasPertama(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
+            .padding(top = 100.dp)
+
