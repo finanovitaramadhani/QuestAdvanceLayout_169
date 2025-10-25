@@ -34,3 +34,10 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun AktivitasKedua(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color.White)
+            .padding(top = 80.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
