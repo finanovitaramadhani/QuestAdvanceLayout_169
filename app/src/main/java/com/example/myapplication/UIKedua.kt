@@ -174,3 +174,46 @@ fun AktivitasKedua(modifier: Modifier = Modifier) {
             }
         }
 
+        // Card 2
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 20.dp, vertical = 5.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.DarkGray),
+            shape = RoundedCornerShape(12.dp)
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(15.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Image(
+                        painter = painterResource(id = R.drawable.riwayat_transaksi),
+                        contentDescription = "Riwayat Transaksi",
+                        modifier = Modifier
+                            .size(40.dp)
+                            .clip(CircleShape),
+                        contentScale = ContentScale.Crop
+                    )
+                    Spacer(modifier = Modifier.width(10.dp))
+                    Text(
+                        text = stringResource(id = R.string.menu_riwayat),
+                        fontSize = 18.sp,
+                        color = Color.White
+                    )
+                }
+
+                Image(
+                    painter = painterResource(id = R.drawable.play),
+                    contentDescription = "Next",
+                    modifier = Modifier
+                        .size(30.dp)
+                        .clip(CircleShape),
+                    contentScale = ContentScale.Crop
+                )
+            }
+        }
+
