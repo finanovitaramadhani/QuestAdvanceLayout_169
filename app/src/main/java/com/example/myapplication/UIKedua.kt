@@ -115,3 +115,9 @@ fun AktivitasKedua(modifier: Modifier = Modifier) {
             color = Color.Black
         )
 
+        Text(
+            text = stringResource(id = R.string.username_user),
+            fontSize = 16.sp,
+            color = Color.DarkGray
+        )
+
