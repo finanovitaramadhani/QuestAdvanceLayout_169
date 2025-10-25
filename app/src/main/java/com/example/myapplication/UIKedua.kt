@@ -108,3 +108,10 @@ fun AktivitasKedua(modifier: Modifier = Modifier) {
         }
         Spacer(modifier = Modifier.height(25.dp))
 
+        Text(
+            text = stringResource(id = R.string.nama_user),
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
+
