@@ -57,3 +57,52 @@ fun AktivitasKedua(modifier: Modifier = Modifier) {
             horizontalArrangement = Arrangement.spacedBy(17.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
+            Box(
+                modifier = Modifier
+                    .size(60.dp)
+                    .clip(CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.linkedin),
+                    contentDescription = "LinkedIn",
+                    modifier = Modifier.size(60.dp)
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .size(40.dp)
+                    .clip(CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.instagram),
+                    contentDescription = "Instagram",
+                    modifier = Modifier.size(70.dp)
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .size(40.dp)
+                    .clip(CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.tiktok),
+                    contentDescription = "TikTok",
+                    modifier = Modifier.size(70.dp)
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .size(60.dp)
+                    .clip(CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.facebook),
+                    contentDescription = "Facebook",
+                    modifier = Modifier.size(60.dp)
+                )
+            }
+        }
