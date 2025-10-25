@@ -51,3 +51,5 @@ fun AktivitasKedua(modifier: Modifier = Modifier) {
                 .clip(CircleShape),
             contentScale = ContentScale.Crop
         )
+        Spacer(modifier = Modifier.height(20.dp))
+
