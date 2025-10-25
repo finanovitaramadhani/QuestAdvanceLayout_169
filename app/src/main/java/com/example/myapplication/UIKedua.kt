@@ -53,3 +53,7 @@ fun AktivitasKedua(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(20.dp))
 
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(17.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
