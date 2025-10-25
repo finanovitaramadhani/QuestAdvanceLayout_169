@@ -260,3 +260,19 @@ fun AktivitasKedua(modifier: Modifier = Modifier) {
             }
         }
 
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(id = R.string.copy_user),
+                color = Color.DarkGray,
+                fontSize = 15.sp,
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 20.dp)
+            )
+        }
+    }
+}
